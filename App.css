@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.pet-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+}
+
+.pet-name {
+  font-size: 16px;
+  color: #7f3838;
+}
+
+.pet-info {
+  font-size: 16px;
+  color: #7f3838;
+  margin: 10px;
+}
+
+.pet-description {
+  font-size: 16px;
+  color: #7f3838;
+}
+
+.pet-photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pet-photos img {
+  max-width: 100px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

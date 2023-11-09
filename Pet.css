@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pet-info {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .pet-name {
+    font-size: 16px;
+    color: #7f3838;
+  }
+  
+  .pet-info {
+    font-size: 16px;
+    color: #7f3838;
+    margin: 10px;
+  }
+  
+  .pet-description {
+    font-size: 16px;
+    color: #7f3838;
+  }
+  
+  .pet-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .pet-photos img {
+    max-width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
